@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import java.awt.Cursor;
+
 public class RegistrationActivity extends AppCompatActivity {
     Cursor cursor;
     private SQLiteDatabase mDb;

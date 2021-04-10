@@ -13,6 +13,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import java.awt.Cursor;
+
 public class AuthorizationActivity extends AppCompatActivity {
     Cursor cursor;
     private SQLiteDatabase mDb;
