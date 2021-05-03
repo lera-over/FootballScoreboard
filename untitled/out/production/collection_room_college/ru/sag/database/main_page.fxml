@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane focusTraversable="true" prefHeight="345.0" prefWidth="758.0" style="-fx-background-color: #FF6700 #B0C4DE;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.sag.database.controller.MainController">
+
+    <children>
+        <AnchorPane layoutY="79.0" prefHeight="249.0" prefWidth="759.0" style="-fx-background-color: #FFFFFF;">
+            <children>
+            <ImageView fitHeight="282.0" fitWidth="759.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img.png" />
+               </image>
+            </ImageView>
+                <Button fx:id="jumpToQuestButton" defaultButton="true" layoutX="10.0" layoutY="209.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="212.0" style="-fx-background-color: #B0C4DE; -fx-border-color: #C0C0C0; -fx-border-radius: 5;" text="ПЕРЕЙТИ К ЗАПОЛНЕНИЮ →">
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font></Button>
+            <ComboBox fx:id="specialityComboBox" cache="true" layoutX="10.0" layoutY="161.0" prefHeight="31.0" prefWidth="212.0" promptText="Список специальностей" style="-fx-background-color: #B0C4DE; -fx-border-color: silver; -fx-border-radius: 5;" visibleRowCount="20">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+                        <String fx:id="communication_systems" fx:value="Инфокоммуникационные сети и системы связи" />
+                        <String fx:id="programming" fx:value="Информационные системы и программирование" />
+                        <String fx:id="installation" fx:value="Монтаж, наладка и эксплуатация электрооборудования промышленных и гражданских зданий" />
+                        <String fx:id="security" fx:value="Обеспечение информационной безопасности автоматизированных систем" />
+                        <String fx:id="protection" fx:value="Организация и технология защиты информации" />
+                        <String fx:id="system_administration" fx:value="Сетевое и системное администрирование" />
+                        <String fx:id="electromechanics" fx:value="Техническая эксплуатация и обслуживание электрического и электромеханического оборудования (по отраслям)" />
+                    </FXCollections>
+                </items>
+            </ComboBox>
+            </children>
+        </AnchorPane>
+        <ImageView fitHeight="77.0" fitWidth="71.0" layoutX="7.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/logo.png" />
+            </image>
+        </ImageView>
+      <Label layoutX="500.0" layoutY="27.0" prefHeight="30.0" prefWidth="163.0" text="график: 8:00 до 17:00, Пн-Пт, " />
+      <Label layoutX="530.0" layoutY="52.0" prefHeight="21.0" prefWidth="128.0" text="суббота с 8:00 до 14:00" />
+      <Label layoutX="669.0" layoutY="34.0" text="(841-2) 22-19-28" />
+      <Label layoutX="669.0" layoutY="54.0" text="(841-2) 22-18-08" />
+        <Label layoutX="87.0" layoutY="6.0" prefHeight="71.0" prefWidth="396.0" style="-fx-font-size: 20;" text="Пензенский колледж информационных и промышленных технологий (ИТ-колледж)" textAlignment="JUSTIFY" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

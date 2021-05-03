@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="521.0" prefWidth="781.0" style="-fx-background-color: #FF6700;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.sag.database.controller.ResultController">
+    <children>
+        <AnchorPane layoutY="80.0" prefHeight="460.0" prefWidth="813.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Label layoutX="257.0" layoutY="58.0" text="Заявка отправлена" textAlignment="JUSTIFY">
+               <font>
+                  <Font name="Tahoma" size="34.0" />
+               </font>
+            </Label>
+            <Label layoutX="208.0" layoutY="368.0" text="Удачи и успехов в учебе!" textAlignment="CENTER">
+               <font>
+                  <Font name="Tahoma" size="34.0" />
+               </font></Label>
+            <Label layoutX="22.0" layoutY="121.0" prefHeight="247.0" prefWidth="769.0" text="Чтобы узнать о результатах зачисления, позвоните по номеру телефона,указанному в шапке приложения с 20.07.21 по 10.08.21" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Tahoma" size="34.0" />
+               </font>
+            </Label>
+         </children>
+        </AnchorPane>
+        <Label layoutX="96.0" layoutY="1.0" prefHeight="71.0" prefWidth="392.0" style="-fx-font-size: 20;" text="Пензенский колледж информационных и промышленных технологий (ИТ-колледж)" wrapText="true" />
+        <ImageView fitHeight="77.0" fitWidth="71.0" layoutX="14.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/logo.png" />
+            </image>
+        </ImageView>
+      <Label layoutX="507.0" layoutY="13.0" prefHeight="30.0" prefWidth="212.0" text="график: 8:00 до 17:00, Пн-Пт, " />
+      <Label layoutX="539.0" layoutY="40.0" prefHeight="21.0" prefWidth="131.0" text="суббота с 8:00 до 14:00" />
+      <Label layoutX="670.0" layoutY="20.0" text="(841-2) 22-19-28" />
+      <Label layoutX="670.0" layoutY="42.0" text="(841-2) 22-18-08" />
+    </children>
+</AnchorPane>
