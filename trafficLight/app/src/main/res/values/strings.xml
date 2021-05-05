@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">trafficLight</string>
-    <string name="redtext">Красный</string>
-    <string name="yellowtext">Желтый</string>
-    <string name="greentext">Зеленый</string>
-</resources>
