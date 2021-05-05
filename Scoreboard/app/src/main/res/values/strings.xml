@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Scoreboard</string>
+    <string name="Argentina">Argentina/Аргентина</string>
+    <string name="Jamaica">Jamaica/Ямайка</string>
+    <string name="reset">Reset/Сброс</string>
+
+</resources>
