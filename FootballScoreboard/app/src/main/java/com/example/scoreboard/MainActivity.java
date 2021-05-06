@@ -1,4 +1,4 @@
-package com.example.footballscoreboard;
+package com.example.scoreboard;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;

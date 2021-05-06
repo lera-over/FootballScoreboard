@@ -1,4 +1,4 @@
-package com.example.footballscoreboard;
+package com.example.scoreboard;
 
 import org.junit.Test;
 
