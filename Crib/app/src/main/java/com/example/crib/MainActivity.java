@@ -33,20 +33,21 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         getSupportActionBar().hide();
         listView = findViewById(R.id.listView);
-        MyAdapter adapter = new MyAdapter(this, mTitle, mDescription, images);
+        ArrayAdapter<String> adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, mTitle);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent = new Intent(MainActivity.this,ContentActivity.class);
-                intent.putExtra("story_key",position);
+                Intent intent = new Intent(MainActivity.this, ContentActivity.class);
+                intent.putExtra("story_key", position);
                 startActivity(intent);
             }
         });
     }
+}
 
 
-    class MyAdapter extends ArrayAdapter<String> {
+    /**class MyAdapter extends ArrayAdapter<String> {
         Context context;
         String[] rTitle;
         String[] rDescription;
@@ -76,4 +77,4 @@ public class MainActivity extends AppCompatActivity {
             return row;
         }
     }
-}
+     **/
