@@ -24,7 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="820eee85-748b-4381-bc7c-ecc8b666c673" name="Default Changelist" comment="">
+    <list default="true" id="820eee85-748b-4381-bc7c-ecc8b666c673" name="Default Changelist" comment="update project">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
@@ -41,6 +41,7 @@
       <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/scoreboard/ExampleInstrumentedTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/scoreboard/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/brazilian_flag.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/spain_flag.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
@@ -149,7 +150,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[XELNW19B13001964]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -165,6 +166,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -257,6 +259,14 @@
       <option name="presentableId" value="Default" />
       <updated>1620385675365</updated>
     </task>
+    <task id="LOCAL-00001" summary="update project">
+      <created>1620387013514</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620387013515</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,5 +279,27 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update project" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="447" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620387083137">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="447" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1620387083137" />
+    <state x="321" y="125" key="MultipleFileMergeDialog" timestamp="1620387074091">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="321" y="125" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1620387074091" />
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1620387016645">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1620387016645" />
+    <state x="483" y="265" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1620386914363">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="483" y="265" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1620386914363" />
   </component>
 </project>
